@@ -1,0 +1,112 @@
+*{
+    background-color: #0e174b;
+}
+.hname{
+    padding: 2px;
+    height: 10%;
+    text-align: center;
+    background-color: white;
+}
+#todo{
+    margin-left: 125px;
+    margin-top: 60px;
+    width: 330px;
+    height: 390px;
+    background-color: white;
+    border-radius: 3px;
+}
+#todo .entry{
+    background-color: white;
+    margin-left: 6px;
+    width: 310px;
+    float: inline-start;
+    border: 2px solid gray;
+    border-radius: 4px;
+    font: 1.3rem timesnewroman bolder;
+}
+#todo .input{
+    margin-top: 14px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+#todo .textarea{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 240px;
+}
+#btn{
+    margin-left: 31px;
+    border-radius: 5px;
+    width: 270px;
+    height: 36px;
+    color: white;
+    font-size: large;
+    border: 2px solid rgb(5, 182, 5);
+    background-color: rgb(5, 182, 5);
+}
+#btn:hover{
+    cursor: pointer;
+    border: 2px solid rgb(1, 102, 1);
+    background-color: rgb(1, 102, 1);
+}
+#menu{
+    margin-top: -30%;
+}
+.bar{
+    float: left;
+    margin-right: 15px;
+    margin-left: 270px;
+    display: flex;
+    color: white;
+}
+.ttl{
+    margin-left: 445px;
+}
+.desc{
+    margin-left: 200px;
+    margin-right: 50px;
+}
+.dlt{
+    margin-left: 265px;
+}
+#upmain{
+    margin-top: 60px;
+    margin-left: 455px;
+    margin-right: 90px;
+    height: 100px;
+    background-color:#0e174b;
+    border-radius: 6px;
+}
+.upleft{
+    margin-left :25px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    width: 100px;
+    height: 70px;
+    background-color: white;
+    font: 1.2rem timesnewroman bolder;    
+}
+.upright{
+    margin-top: 2px;
+    width: 550px;
+    height: 70px;
+    background-color: white;
+    font: 1.2rem timesnewroman bolder;
+}
+.upbtn{
+    margin-left: 26px;
+    cursor: pointer;
+    width: 50px;
+    height:  40px;
+    border-radius: 8px;
+    border: 2px solid #0e174b;
+    font-size: 70px;
+    font-weight: bolder;
+    color: rgb(255, 2, 2);
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: row;
+}

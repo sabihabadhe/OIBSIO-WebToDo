@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Img/icon.png">
+    <title>To-Do Web App</title>
+</head>
+<body>
+    <!-- Heading -->
+    <h2 class="hname">To-Do List Web App</h2>
+
+    <!-- To-Do Table -->
+    <div id="todo">
+        <input type="text" class="entry input" placeholder=" Task Name" onfocus="this.value=''">
+        <textarea class="entry textarea" cols="30" rows="10" placeholder=" Description" onfocus="this.value=''"></textarea>
+        <button id="btn">Save</button>
+    </div>
+
+    <!-- Menu Bar -->
+    <div id="menu">
+        <ul>
+            <li class="bar ttl">Task Name</li>
+            <li class="bar  desc">Description</li>
+            <li class="bar dlt">Delete</li>
+        </ul>
+    </div>
+
+    <!-- Storing Values -->
+    <div id="upmain"></div>
+    <script src="script.js"></script> 
+</body>
+</html>
